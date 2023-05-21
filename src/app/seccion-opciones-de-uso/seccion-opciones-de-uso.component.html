@@ -1,0 +1,47 @@
+<div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseOne">
+        SECCIÓN - OPCIONES DE USO
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+      <div class="accordion-body">
+        <div class="row">
+
+          <div class="col">
+            <div class="form-group mb-3 form-floating">
+
+              <select id="declaracion" name="declaracion" class="form-select" aria-label="Default select example">
+                <option selected>¿Qué tipo de declaración va a presentar?</option>
+                <option value="dec_inicial">Declaración Inicial</option>
+                <option value="dec_correccion">Declaración de Corrección</option>
+                <option value="solo_pago">Solo para Pago</option>
+              </select>
+
+              <label for="declaracion" class="form-label">Tipo de Declaración:</label>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="form-group mb-3">
+              <label for="fechaPresentacion" class="form-label">Fecha Máxima de Presentación y/o Pago:</label>
+              <input type="date" id="fechaPresentacion" name="fechaPresentacion" class="form-control">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="declaracion_correccion"
+                     placeholder="Número de la Declaración anteriormente presentada">
+              <label for="declaracion_correccion">Número de la Declaración Anteriormente Presentada</label>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
